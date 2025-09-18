@@ -22,6 +22,6 @@ The optimization is solved using [Portfolio Safeguard (PSG)](https://uryasev.ams
 - `results/` : Saved optimal positions, plots, and reports.
 
 ## Results
-- Sparse tracking portfolio (~12 assets selected).  
+- Sparse tracking portfolio (~3 assets selected).  
 - Portfolio vs Dow Jones performance plotted side by side.  
 - Transaction cost and tracking error reported.
