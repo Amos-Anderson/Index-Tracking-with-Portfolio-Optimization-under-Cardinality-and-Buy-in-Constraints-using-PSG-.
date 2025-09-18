@@ -1,0 +1,8 @@
+plt.figure(figsize=(10,6))
+plt.plot(portfolio_series.index, portfolio_series.values, label='Replicating portfolio (no rebal)', linewidth=2)
+plt.plot(index_series.index, index_series.values, label='Dow Jones (index)', linewidth=2)
+plt.title('Replicating Portfolio vs Dow Jones (initial value = 100)')
+plt.xlabel('Date')
+plt.ylabel('Value (base = 100)')
+plt.legend()
+plt.show()
