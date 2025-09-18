@@ -18,8 +18,8 @@ The optimization is solved using [Portfolio Safeguard (PSG)](https://uryasev.ams
 ## Repository Structure
 - `data/` : Input CSV files (prices, log returns).  
 - `src/` : Python scripts for data handling, optimization, and evaluation.  
-- `notebooks/` : Jupyter notebook with full workflow (Assignment 1).  
-- `results/` : Saved optimal positions, plots, and reports.
+- `notebooks/` : Jupyter notebook with full workflow (`dowjones_index_tracking.ipynb`).  
+- `results/` : Saved optimal positions and plots.
 
 ## Results
 - Sparse tracking portfolio (~3 assets selected).  
